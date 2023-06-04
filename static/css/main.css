@@ -1,0 +1,39 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper head {
+    background-color: black;
+    text-align: center;
+    display: flex;
+}
+
+.name {
+    float: left;
+}
+
+.add {
+    float: right;
+}
+
+.save-new {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.save-new.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center !important;
+}
